@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	int n, i, j;
+	int n;
 	
 	while(scanf("%d", &n) == 1){
 		printf("%lld\n", 1LL << (n - 1));
